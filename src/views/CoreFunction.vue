@@ -19,7 +19,7 @@ const galleryImages = Array.from({ length: 20 }).map((_, i) => {
   return {
     id: `3-${i + 1}`,
     age: ages[i],
-    url: new URL(`../assets/3-${i + 1}.JPG`, import.meta.url).href,
+    url: new URL(`../assets/3-1.JPG`, import.meta.url).href,
   }
 })
 const isLoaded = ref(false)
